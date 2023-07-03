@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheat Sheet: CSS Positioning Tags Cheat Sheet</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Roboto&display=swap" rel="stylesheet">
+        
+        <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <!-- cheat sheet on CSS positioning tags -->
+        <div id="watermark">
+            <span>Master Of Fluff</span>
+        </div>
+        <h1>CSS Positioning Tags Cheat Sheet</h1>
+        <main>
+        <div id="topic">
+            <h2>The <code>position</code> Property</h2>
+            <p>There are 5 position property values</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="firstcol">Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><code>position: static;</code></td>
+                        <td>HTML elements are positioned static by default.</code></td>
+                    </tr>
+                    <tr> 
+                        <td colspan =2 >Static positioned elements are not affected by the top, bottom, left, and right properties.</td>
+                    </tr>    
+                    <tr>
+                        <td><code>position: relative;</code></td>
+                        <td>Positioned relative to its normal position.</td>
+                    </tr>
+                    <tr> 
+                        <td colspan =2 >Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</td>
+                    </tr>
+                    <tr>
+                        <td><code>position: fixed</code></td>
+                        <td>Positioned relative to the viewport.</td>
+                    </tr>
+                    <tr> 
+                        <td colspan =2 >An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.</td>
+                    </tr>
+                    <tr>
+                        <td><code>position: absolute;</code></td>
+                        <td>An element with position: absolute; is positioned relative to the nearest positioned ancestor.</td>
+                    </tr>
+                    <tr> 
+                        <td colspan =2 >However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. <br>Absolutely positioned elements ignore the float property! <br>Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.</td>
+                    </tr>       
+                    <tr>
+                        <td><code>position: sticky;</code></td>
+                        <td>An element with position: sticky; is positioned based on the user's scroll position.</td>
+                    </tr>
+                    <tr> 
+                        <td colspan =2 >A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</td>
+                    </tr> 
+                </tbody>    
+            </table>
+
+        </div>
+        <div id="other_properties">
+            <h2>Other CSS Positioning Properties and other Strangeness</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="firstcol">Property</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>bottom</code></td>
+                        <td>Sets the bottom margin edge for a positioned box</td>
+                    </tr>                    
+                     <tr>
+                        <td><code>top</code></td>
+                        <td>Sets the top margin edge for a positioned box</td>
+                    </tr>                   
+                    <tr>
+                        <td><code>left</code></td>
+                        <td>Sets the left margin edge for a positioned box</td>
+                    </tr>
+                    <tr>
+                        <td><code>right</code></td>
+                        <td>Sets the right margin edge for a positioned box</td>
+                    </tr>
+                    <tr>
+                        <td><code>clip</code></td>
+                        <td>Clips an absolutely positioned element</td>
+                    </tr>	
+                    <tr>
+                        <td><code>float</code></td>
+                        <td>The float property specifies whether an element should float to the left, right, or not at all.</td>
+                    </tr>	
+                    <tr>
+                        <td><code>clear</code></td>
+                        <td>The clear property specifies what should happen with the element that is next to a floating element.</td>
+                    </tr>	
+                </tbody>
+            </table>
+        </div>
+
+        </main> 
+
+    </body>
+</html>
