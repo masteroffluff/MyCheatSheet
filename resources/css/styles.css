@@ -1,5 +1,6 @@
 
 
+
 body{
     /* background-image:linear-gradient(white,white,ivory); */
     background-color: snow;
@@ -9,6 +10,14 @@ body{
     height:auto;
     
 }
+
+header {
+    position:relative;
+    left: 50px;
+}
+
+
+
 
 .navbar li{
     list-style: none;
